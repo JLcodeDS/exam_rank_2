@@ -18,7 +18,7 @@ int	ft_atoi(const char *str);
 #include <stdlib.h>
 #include <limits.h>
 
-int ft_atoi(char *s)
+int ft_atoi(const char *s)
 {
 	int i = 0;
 	int sign = 1;
